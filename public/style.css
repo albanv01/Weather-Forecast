@@ -1,0 +1,151 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/bd/59/6a/bd596a9c63d8c3964fd3f537ed2fe33c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+
+.container {
+    width: fit-content
+}
+
+.title{
+    color: white;
+}
+
+.card {
+    padding: 1.2rem 3rem 1rem 3rem;
+    margin: 1rem;
+    border-color: rgba(238, 237, 237, 0.438);
+    box-shadow: 5px 8px 10px #80808033;
+    background: linear-gradient(196deg, rgba(75, 102, 235, 0.873) 5%, rgba(215, 224, 255, 0.803) 100%);
+    color: rgba(233, 230, 242, 0.995);
+    text-align: center;
+}
+
+@media(max-width:767px) {
+    .card {
+        height: 10rem;
+    }
+}
+
+.carousel-indicators li {
+    width: 5px;
+    height: 6px;
+    border-radius: 100%;
+    opacity: 0.2;
+    background-color: #000000
+}
+
+.carousel-indicators {
+    margin-bottom: 0
+}
+
+.temp {
+    font-size: 4rem;
+    color: black;
+}
+
+.card-1 {
+    padding: 1.2rem 3rem 1rem 3rem;
+    margin: 1rem;
+    border-color: rgba(238, 237, 237, 0.438);
+    box-shadow: 5px 8px 10px #80808033;
+    background: linear-gradient(196deg, rgba(75, 102, 235, 0.873) 5%, rgba(215, 224, 255, 0.803) 100%);
+    color: rgba(233, 230, 242, 0.995);
+    text-align: center;}
+
+@media(max-width:767px) {
+    .temp {
+        font-size: 3rem;
+        color: black;
+    }
+}
+
+.location {
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+@media(max-width:767px) {
+    .location {
+        font-size: 0.75rem
+    }
+}
+
+.img-fluid {
+    float: right;
+    width: 65%;
+    display: flex;
+    align-items: center
+}
+
+.row2 .img-fluid {
+    margin: 10% 0;
+    width: 40%
+}
+
+.card-2 .row {
+    justify-content: center
+}
+
+.card-3 .row {
+    justify-content: center
+}
+
+.row1 {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: black
+}
+
+.row3 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: black
+}
+
+@media(max-width:400px) {
+    .row3 {
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: black
+    }
+}
+
+@media(max-width:320px) {
+    .row3 {
+        font-size: 0.6rem;
+        font-weight: bold;
+        color: black
+    }
+}
+
+.row4 {
+    font-size: 0.6rem;
+    color: rgb(196, 196, 196);
+    margin: 5% 0 2.5rem
+}
+
+.card-3 .row3 {
+}
+
+.col {
+    overflow: visible
+}
+
+.row {
+    overflow: visible
+}
+
+.max{
+    color: black;
+}
+.min{
+    color: black;
+}
